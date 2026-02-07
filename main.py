@@ -23,6 +23,8 @@ async def get_students(pref=None):
         return filtered_students
     return data
 
+#Exercises 1 and 2
+
 @app.get('/stats')
 async def get_stats():
     stats = {}
